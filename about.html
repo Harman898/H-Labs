@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H-Labs | About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header" data-aos="fade-down" data-aos-duration="800">
+    <div class="container">
+        <a href="index.html" class="logo">H-Labs</a>
+        <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a> 
+    <a href="contact.html" class="cta-nav">Contact</a> 
+</nav>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</header>
+    <main>
+        <section class="page-hero" data-aos="fade-in" data-aos-duration="1000">
+            <div class="container">
+                <h1 data-aos="fade-up">Why you should choose H-Labs?</h1>
+                <p data-aos="fade-up" data-aos-delay="100">H-Labs story and rules that i follow</p>
+            </div>
+        </section>
+
+        <section class="about-story">
+            <div class="container">
+                <div class="story-grid">
+                    <div class="story-content" data-aos="fade-right" data-aos-duration="1000">
+                        <h2>H-Labs story</h2>
+                        <p>H-Labs was born as a site that offers services that help people develop their businesses with unparalleled professionalism and attention to detail</p>
+                    </div>
+                    <div class="story-image" data-aos="fade-left" data-aos-delay="200" data-aos-duration="1000">
+                        <img src="about2.jpg" alt="H-Labs story" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-mission">
+            <div class="container">
+                <div class="story-grid reversed"> <div class="story-image" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
+                        <img src="about1.jpg" alt="My mission" loading="lazy">
+                    </div>
+                    <div class="story-content" data-aos="fade-left" data-aos-duration="1000">
+                        <h2>My Mission</h2>
+                        <p>my mission is to develop companies and e-commerce digitally so as to have more visibility and slowly make the old idea of ​​a shop disappear</p>
+                        <p>I believe in transparency, active listening and long-term partnership, ensuring that each project is not just a final product, but a shared growth path</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> H-Labs.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

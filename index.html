@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> H-Labs | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+   
+   <header class="header" data-aos="fade-down" data-aos-duration="800">
+    <div class="container">
+        <a href="index.html" class="logo">H-Labs</a>
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html" class="cta-nav">Contact</a> 
+        </nav>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-right" data-aos-duration="1000">
+                <h1>Transform your vision into digital reality</h1>
+                <p>expert in creating web solutions that drive on the way of success</p>
+                <a href="services.html" class="btn-primary">Start a project
+                </a>
+            </div>
+            <div class="hero-image" data-aos="zoom-in" data-aos-delay="700">
+                <img src="index1.jpg" alt="Digital Illustration">
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2 data-aos="fade-up">my services</h2>
+            <div class="services-grid">
+                <a href="contact.html" class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card-content">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Web Developement</h3>
+                         <p>Personalized web site and e-commerce creation based on your needs </p>
+                    </div>
+                </a>
+                
+                <a href="contact.html" class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card-content">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>web design</p>
+                         <p>eye catcher website design made with figma</p>
+                    </div>
+                </a>
+
+                <a href="contact.html" class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card-content">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Digital Strategies</h3>
+                        <p>Plans for online success, from SEO to social media marketing.</p>
+                    </div>
+                </a>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> H-Labs</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

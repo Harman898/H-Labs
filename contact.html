@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H-Labs| Contact</title> 
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header" data-aos="fade-down" data-aos-duration="800">
+        <div class="container">
+            <a href="index.html" class="logo">H-Labs</a>
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html" class="cta-nav active">Contact</a> 
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero" data-aos="fade-in" data-aos-duration="1000">
+            <div class="container">
+                <h1 data-aos="fade-down">Contact me</h1> 
+                <p data-aos="fade-down" data-aos-delay="100">i?m here to help you and start yourd ream digital project</p>
+            </div>
+        </section>
+        
+        <section class="contact-content">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>contact info</h2>>
+                        <p><i class="fas fa-envelope"></i> info@hlabs14@gmail.com</p> <div class="social-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h2>e-mail me a message</h2>
+                        <form
+  action="https://formspree.io/f/xrbkdpdg"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+ 
+  <button class="send-button" "type="submit">Send</button>
+</form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> H-Labs</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

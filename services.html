@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>H-Labs | Services</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header" data-aos="fade-down" data-aos-duration="800">
+    <div class="container">
+        <a href="index.html" class="logo">H-Labs</a>
+        <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html" class="cta-nav">Contact</a> 
+</nav>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</header>
+
+    <main>
+        <section class="page-hero" data-aos="fade-in" data-aos-duration="1000">
+            <div class="container">
+                <h1 data-aos="zoom-in">avaible services</h1>
+                <p data-aos="zoom-in" data-aos-delay="100">digital solutions to improve your business</p>
+            </div>
+        </section>
+        
+        <section class="services-content">
+            <div class="container">
+                <div class="service-cards">
+                    <!-- Card 1 -->
+                    <a href="contact.html" class="service-card" data-aos="flip-left" data-aos-duration="1000">
+                        <div class="service-card-content">
+                            <i class="fas fa-laptop-code"></i>
+                            <h3>Web development</h3>
+                            <p>Personalized web site and e-commerce creation based on your needs .</p>
+                            <ul>
+                                <li>E-commerce</li>
+                                <li>company web site</li>
+                                <li>Landing pages, portfolio</li>
+                            </ul>
+                        </div>
+                    </a>
+
+                    <!-- Card 2 -->
+                    <a href="contact.html" class="service-card" data-aos="flip-left" data-aos-delay="200" data-aos-duration="1000">
+                        <div class="service-card-content">
+                            <i class="fas fa-paint-brush"></i>
+                            <h3>Web Design</h3>
+                            <p>eye catcher website design made with figma</p>
+                            <ul>
+                                <li>modern design</li>
+                                <li>made with premium tools like figma</li>
+                            </ul>
+                        </div>
+                    </a>
+
+                    <!-- Card 3 -->
+                    <a href="contact.html" class="service-card" data-aos="flip-left" data-aos-delay="300" data-aos-duration="1000">
+                        <div class="service-card-content">
+                            <i class="fas fa-chart-line"></i>
+                            <h3>Digital strategies</h3>
+                            <p>Plans for online success, social media marketing.</p>
+                            <ul>
+                                <li>Plans for social media growth</li>
+                                <li>Content Strategy</li>
+                                <li>Performance Marketing</li>
+                            </ul>
+                        </div>
+                    </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+        <div class="container">
+            <p>&copy; <span id="currentYear"></span> H-Labs</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="main.js"></script>
+    <script>
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
